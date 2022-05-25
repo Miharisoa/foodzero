@@ -1,0 +1,25 @@
+// green
+$primary-color: #233000;
+$secondary-color: #5E6600;
+$third-color: #9CAA00;
+$fourth-color: #EBF0E4;
+
+// black
+$black: #000000;
+$secondary-black: #4D4D4D;
+$grey: #B0B0B0;
+
+// Override default variables before the import
+// $body-bg: #233000;
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.btn-primary {
+    background-color: $primary-color;
+}
+
+.bg-primary {
+    background-color: $primary-color;
+}
